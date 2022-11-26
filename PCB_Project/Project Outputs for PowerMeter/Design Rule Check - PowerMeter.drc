@@ -1,0 +1,79 @@
+Protel Design System Design Rule Check
+PCB File : D:\Gonzalo\UTN\6to Año\IDCI\IDCI_TPO_SFARA\PCB_Project\PowerMeter.PcbDoc
+Date     : 22/2/2022
+Time     : 01:17:03
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: GND_L01_P000 On Top Layer
+   Polygon named: GND_L02_P001 On Top Layer
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+   Violation between Clearance Constraint: (9.853mil < 10mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (-145mil,-485mil)(-142.48mil,-485mil) on Bottom Layer 
+   Violation between Clearance Constraint: (8.248mil < 10mil) Between Pad U3-11(534.567mil,836.221mil) on Top Layer And Track (560.158mil,782.795mil)(560.158mil,836.221mil) on Top Layer 
+   Violation between Clearance Constraint: (8.248mil < 10mil) Between Pad U3-14(611.339mil,836.221mil) on Top Layer And Track (585.748mil,782.795mil)(585.748mil,836.221mil) on Top Layer 
+   Violation between Clearance Constraint: (9.409mil < 10mil) Between Pad U3-16(585.748mil,1113.78mil) on Top Layer And Track (610mil,1065mil)(610mil,1112.441mil) on Top Layer 
+   Violation between Clearance Constraint: (9.409mil < 10mil) Between Pad U3-16(585.748mil,1113.78mil) on Top Layer And Track (610mil,1112.441mil)(611.339mil,1113.78mil) on Top Layer 
+   Violation between Clearance Constraint: (8.248mil < 10mil) Between Pad U3-2(304.252mil,836.221mil) on Top Layer And Track (278.661mil,770mil)(278.661mil,836.221mil) on Top Layer 
+   Violation between Clearance Constraint: (8.248mil < 10mil) Between Pad U3-2(304.252mil,836.221mil) on Top Layer And Track (278.661mil,836.221mil)(278.661mil,1113.78mil) on Top Layer 
+   Violation between Clearance Constraint: (8.248mil < 10mil) Between Pad U3-2(304.252mil,836.221mil) on Top Layer And Track (329.842mil,770mil)(329.842mil,836.221mil) on Top Layer 
+   Violation between Clearance Constraint: (8.248mil < 10mil) Between Pad U3-27(304.252mil,1113.78mil) on Top Layer And Track (278.661mil,1113.78mil)(278.661mil,1113.78mil) on Top Layer 
+   Violation between Clearance Constraint: (8.248mil < 10mil) Between Pad U3-27(304.252mil,1113.78mil) on Top Layer And Track (278.661mil,836.221mil)(278.661mil,1113.78mil) on Top Layer 
+   Violation between Clearance Constraint: (8.248mil < 10mil) Between Pad U3-6(406.614mil,836.22mil) on Top Layer And Track (381.024mil,770mil)(381.024mil,836.221mil) on Top Layer 
+   Violation between Clearance Constraint: (9.507mil < 10mil) Between Track (215mil,900mil)(317.165mil,1002.165mil) on Bottom Layer And Via (355mil,995mil) from Top Layer to Bottom Layer 
+   Violation between Clearance Constraint: (9.507mil < 10mil) Between Track (317.165mil,1002.165mil)(317.165mil,1101.693mil) on Bottom Layer And Via (355mil,995mil) from Top Layer to Bottom Layer 
+Rule Violations :13
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+   Violation between Modified Polygon: Polygon Not Repour After Edit  (GND_L01_P000) on Top Layer 
+   Violation between Modified Polygon: Polygon Not Repour After Edit  (GND_L02_P001) on Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Width Constraint (Min=70mil) (Max=180mil) (Preferred=150mil) (InNet('NetLOAD_1'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=6mil) (Max=10mil) (Preferred=8mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=70mil) (Max=180mil) (Preferred=150mil) (InNet('NetRELE_C1'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=70mil) (Max=180mil) (Preferred=150mil) (InNet('LINE'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=15mil) (Max=20mil) (Preferred=18mil) (InNet('3V3'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=15mil) (Max=18mil) (Preferred=15mil) (InComponent('U1'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=15mil) (Max=18mil) (Preferred=15mil) (InComponent('U2'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 15
+Waived Violations : 0
+Time Elapsed        : 00:00:02

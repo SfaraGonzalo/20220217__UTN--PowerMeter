@@ -1,0 +1,12 @@
+Source PCB Design PowerMeter_Panel.PcbDoc contains embedded board array. It is recomended to generate individual BOM for each embedded board PCB design.
+
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [PowerMeter.PrjPcb]
+   Generated File[Pick Place for PowerMeter_Panel.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 01:12:34 On 22/2/2022
